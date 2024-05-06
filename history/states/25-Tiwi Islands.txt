@@ -1,0 +1,15 @@
+
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		738 1452 3511 4094 6222 6223 6225 6226 
+	}
+    history={
+		owner = GNT
+		add_core_of = GNT
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

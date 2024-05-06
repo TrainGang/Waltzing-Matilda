@@ -1,0 +1,15 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		1021 
+	}
+	history={
+		owner = OUT
+		add_core_of = OUT
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

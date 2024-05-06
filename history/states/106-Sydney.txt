@@ -1,0 +1,16 @@
+state={
+	id=106
+	name="STATE_106"
+	provinces={
+		7039 
+	}
+	history={
+		owner = SYD
+		add_core_of = SYD
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

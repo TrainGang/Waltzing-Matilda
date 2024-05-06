@@ -1,0 +1,17 @@
+
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		1802 7165 7171 7173 7178 
+	}
+	history={
+		owner = GSA
+		add_core_of = GSA
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

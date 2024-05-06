@@ -1,0 +1,16 @@
+
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		3754 3979 6866 6910 6922 6928 
+	}
+	history={
+		owner = GWA
+		add_core_of = GWA
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

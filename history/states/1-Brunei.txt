@@ -1,0 +1,17 @@
+
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		599 2283 5417 
+	}
+    
+    history={
+		owner = MAL
+		add_core_of = MAL
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

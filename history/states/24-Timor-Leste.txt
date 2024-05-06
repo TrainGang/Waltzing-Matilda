@@ -1,0 +1,16 @@
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		245 1489 1513 1588 2939 3718 3959 6159 6166 6174 6177 6178 6183 6185 
+	}
+    
+    history={
+		owner = TML
+		add_core_of = TML
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

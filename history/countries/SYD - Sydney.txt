@@ -1,0 +1,34 @@
+capital = 9
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_country_flag = SYD_beginning
+
+set_politics = {
+	ruling_party = populist_camp
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+create_country_leader = {
+	
+	name = "Jack Lang"
+	picture = "gfx//leaders//SYD//Jack_Lang.dds"
+	expire = "1965.1.1"
+	ideology = langism
+	traits = {
+		#
+	}
+}
+
+set_popularities = {
+	populist_camp = 90
+	autocracy = 10
+}

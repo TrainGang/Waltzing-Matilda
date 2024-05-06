@@ -1,0 +1,17 @@
+
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		917 2752 2870 7497 7504 7506 7512 7515 7857 7858 12902 
+	}
+	history={
+		owner = GTS
+		add_core_of = GTS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

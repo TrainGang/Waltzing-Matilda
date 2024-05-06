@@ -1,0 +1,16 @@
+
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		526 847 944 1046 1060 1723 1740 1841 2803 3384 4214 6313 6321 6323 6329 6335 6339 6341 6342 6347 6352 6361 
+	}
+	history={
+		owner = GQL
+		add_core_of = GQL
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

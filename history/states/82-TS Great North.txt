@@ -1,0 +1,17 @@
+
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		1973 2100 2110 2114 2398 7436 7442 7451 7454 7460 
+	}
+	history={
+		owner = GTS
+		add_core_of = GTS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

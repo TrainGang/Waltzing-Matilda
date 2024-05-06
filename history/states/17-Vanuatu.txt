@@ -1,0 +1,16 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		3326 3806 6269 7808 7809 7811 7813 7814 7818 7820 7824 7828 7830 7831 
+	}
+    
+    history={
+		owner = VAN
+		add_core_of = VAN
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

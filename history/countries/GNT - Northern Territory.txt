@@ -1,0 +1,34 @@
+capital = 9
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+create_country_leader = {
+	
+	name = "Robert Wedell"
+	picture = "gfx//leaders//GNT//robert_wedell.tga"
+	expire = "1965.1.1"
+	ideology = governor_system
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+	ruling_party = imperialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	imperialism = 50
+	autocracy = 35
+	reactionism = 5
+	broad_conservatism = 10
+}

@@ -1,0 +1,32 @@
+capital = 18
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+create_country_leader = {
+	
+	name = "Sadatoshi Tomioka"
+	picture = "gfx//leaders//JPP//sadatoshi_tomioka.tga"
+	expire = "1965.1.1"
+	ideology = military_administration
+	traits = {
+		#
+	}
+}
+
+set_popularities = {
+	autocracy = 89
+	imperialism = 11
+}

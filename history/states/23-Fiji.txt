@@ -1,0 +1,16 @@
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		1061 2270 3569 4105 6299 6306 6330 6331 6340 6348 7821 7823 7825 7826 7827 7829 
+	}
+    
+    history={
+		owner = FIJ
+		add_core_of = FIJ
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

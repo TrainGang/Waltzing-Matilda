@@ -1,0 +1,17 @@
+
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		2131 2257 2305 2327 3129 3879 7249 7263 7277 7282 7288 7297 7303 7316 
+	}
+	history={
+		owner = GVI
+		add_core_of = GVI
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

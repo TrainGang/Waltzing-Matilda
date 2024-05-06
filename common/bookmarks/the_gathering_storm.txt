@@ -1,0 +1,59 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_CRISIS_NAME"
+		desc = "THE_CRISIS_DESC"
+		date = 1933.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "PCC"
+		default = yes
+		
+		"SYD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+        "GNS"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+        "AST"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+        "GNT"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+        
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

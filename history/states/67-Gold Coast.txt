@@ -1,0 +1,17 @@
+
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		1029 2427 3079 3611 6706 6707 7841 
+	}
+	history={
+		owner = GQL
+		add_core_of = GQL
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

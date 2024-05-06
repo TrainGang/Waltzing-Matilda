@@ -1,0 +1,17 @@
+
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		1117 1459 1912 2380 3103 3338 6565 6582 6586 6587 6588 6595 6606 6610 
+	}
+	history={
+		owner = GQL
+		add_core_of = GQL
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

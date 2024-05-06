@@ -1,0 +1,18 @@
+
+state={
+	id=93
+	name="STATE_93"
+
+	history={
+		owner = GVI
+		add_core_of = GVI
+
+	}
+
+	provinces={
+		534 2055 3493 3535 3996 7274 7290 7291 7300 7307 7308 7310 7317 7318 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

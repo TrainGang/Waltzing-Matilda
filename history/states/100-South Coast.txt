@@ -1,0 +1,17 @@
+
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		1799 1870 2630 2672 2794 2954 3291 7149 7153 7158 7160 7177 7187 7218 7221 7244 7252 7256 
+	}
+	history={
+		owner = GNS
+		add_core_of = GNS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		120 1772 1864 1969 2311 2390 2697 2865 3219 3590 4243 6411 6431 6456 6458 6461 6470 6485 7833 7834 7838 
+	}
+    
+    history={
+		owner = CAL
+		add_core_of = CAL
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		1163 1654 1668 1914 2262 2973 3116 3460 3596 3864 4053 4059 6803 6806 6811 6813 6818 6820 6827 6839 6847 6850 6853 6879 6880 6889 6897 6902 6917 
+	}
+	history={
+		owner = GNS
+		add_core_of = GNS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

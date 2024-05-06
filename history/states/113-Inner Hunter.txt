@@ -1,0 +1,16 @@
+
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		389 1197 1413 1559 2106 2682 2982 3233 3304 3601 3701 4119 4182 4270 6900 6901 6913 6914 6920 6921 6924 6930 6933 6945 6949 6954 6959 6960 6971 6975 6977 6982 6985 6986 6997 7000 12796 
+	}
+	history={
+		owner = BUS
+		add_core_of = BUS
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

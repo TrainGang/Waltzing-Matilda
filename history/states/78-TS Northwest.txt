@@ -1,0 +1,17 @@
+
+state={
+	id=78
+	name="STATE_78"
+	provinces={
+		423 1053 1456 3308 3446 7429 7435 7438 7446 7447 7449 7452 7849 7850 
+	}
+	history={
+		owner = GTS
+		add_core_of = GTS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

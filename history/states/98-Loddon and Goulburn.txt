@@ -1,0 +1,18 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		owner = BUS
+		add_core_of = BUS
+
+	}
+
+	provinces={
+		429 1172 1271 1515 1695 2215 2321 2392 3010 3013 3188 3417 3422 3452 3975 7175 7181 7184 7188 7190 7196 7197 7200 7205 7206 7207 7208 7209 7216 7219 7223 7232 7233 7236 7245 7251 7253 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

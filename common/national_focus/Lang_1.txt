@@ -1,0 +1,257 @@
+focus_tree = {
+	id = SYD_prewar
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SYD
+		}
+	}
+		
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1800 }
+
+	focus = {
+		id =SYD_lang_is_right
+		icon = GFX_focus_lang_is_right
+		x = 5
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+			country_event = {
+				id = langtree.1
+			}
+		}
+	}
+
+	focus = {
+		id =SYD_australia_is_a_nation
+		icon = GFX_focus_lang_is_right
+		x = 1
+		y = 1
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_lang_is_right}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+			add_ideas = SYD_our_history_of_culture
+		}
+	}
+	focus = {
+		id =SYD_australians_are_a_people
+		icon = GFX_focus_lang_is_right
+		x = -1
+		y = 1
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_lang_is_right}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				add_ideas = SYD_our_history_of_rebellion
+		}
+	}
+
+	focus = {
+		id =SYD_one_that_doesnt_bow_to_tyrrany
+		icon = GFX_focus_lang_is_right
+		x = 0
+		y = 2
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_australia_is_a_nation}
+		prerequisite = {focus = SYD_australians_are_a_people}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+			country_event = {
+				id = langtree.2
+			}
+		}
+	}
+	focus = {
+		id =SYD_the_nation_cries_for_freedom
+		icon = GFX_focus_lang_is_right
+		x = 2
+		y = 3
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_one_that_doesnt_bow_to_tyrrany}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				#
+		}
+	}
+
+	focus = {
+		id =SYD_it_is_our_job_to_listen
+		icon = GFX_focus_lang_is_right
+		x = 2
+		y = 4
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_the_nation_cries_for_freedom}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				#
+		}
+	}
+
+	focus = {
+		id =SYD_the_elites_cry_for_help
+		icon = GFX_focus_lang_is_right
+		x = -2
+		y = 3
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_one_that_doesnt_bow_to_tyrrany}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				#
+		}
+	}
+	focus = {
+		id =SYD_their_time_is_over
+		icon = GFX_focus_lang_is_right
+		x = -2
+		y = 4
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_the_elites_cry_for_help}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				add_popularity = { ideology = autocracy popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id =SYD_convicts_became_politicians
+		icon = GFX_focus_lang_is_right
+		x = 0
+		y = 3
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_one_that_doesnt_bow_to_tyrrany}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				#
+		}
+	}
+	focus = {
+		id =SYD_politcians_become_convicts
+		icon = GFX_focus_lang_is_right
+		x = 0
+		y = 4
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_convicts_became_politicians}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+				#
+		}
+	}
+	focus = {
+		id =SYD_the_heart_of_the_nation
+		icon = GFX_focus_lang_is_right
+		x = 0
+		y = 5
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_it_is_our_job_to_listen}
+		prerequisite = {focus = SYD_politcians_become_convicts}
+		prerequisite = {focus = SYD_their_time_is_over}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+			country_event = {
+				id = langtree.3
+			}
+		}
+	}
+	focus = {
+		id =SYD_of_the_land_down_under
+		icon = GFX_focus_lang_is_right
+		x = 0
+		y = 6
+		relative_position_id = SYD_lang_is_right
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {focus = SYD_the_heart_of_the_nation}
+		allow_branch = {
+		has_country_flag = SYD_beginning
+		}
+		completion_reward = {
+			country_event = {
+				id = langtree.4
+			}
+		}
+	}
+}

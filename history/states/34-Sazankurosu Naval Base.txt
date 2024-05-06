@@ -1,0 +1,14 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		290 
+	}
+	history={
+		owner = JPP
+		add_core_of = JPP
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

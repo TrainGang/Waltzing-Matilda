@@ -1,0 +1,16 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		7627 
+	}
+    
+    history={
+		owner = FSM
+		add_core_of = FSM
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

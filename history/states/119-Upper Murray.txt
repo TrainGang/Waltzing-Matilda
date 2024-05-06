@@ -1,0 +1,17 @@
+
+state={
+	id=119
+	name="STATE_119"
+	provinces={
+		131 230 254 638 745 872 990 1013 1055 1165 1216 1546 1720 1961 2003 2346 2940 3447 3542 4130 6951 6994 7012 7030 7033 7042 7053 7068 7070 12877 12878 12879 
+	}
+	history={
+		owner = OUT
+		add_core_of = OUT
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

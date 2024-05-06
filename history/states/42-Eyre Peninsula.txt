@@ -1,0 +1,17 @@
+
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		766 844 1962 2846 2936 3183 3296 3751 3771 3772 3999 6967 6991 6992 6993 7002 7007 7013 7044 7086 7097 7101 7842 
+	}
+	history={
+		owner = GSA
+		add_core_of = GSA
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

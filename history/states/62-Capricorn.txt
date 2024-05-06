@@ -1,0 +1,17 @@
+
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		23 204 313 361 421 447 661 1076 1133 2205 2324 2705 2718 3303 3375 3378 3428 3560 6493 6494 6496 6499 6506 6508 6523 6524 6526 6527 6528 7836 7837 
+	}
+	history={
+		owner = GQL
+		add_core_of = GQL
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

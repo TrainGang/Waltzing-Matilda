@@ -1,0 +1,16 @@
+
+state={
+	id=53
+	name="STATE_53"
+	provinces={
+		729 1474 1694 2212 2946 2948 3134 3310 3454 3546 4159 7006 7014 7026 7027 7034 7055 7060 7061 7066 7067 7075 7084 7088 
+	}
+	history={
+		owner = GWA
+		add_core_of = GWA
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

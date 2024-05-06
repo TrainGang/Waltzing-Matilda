@@ -1,0 +1,17 @@
+
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		535 548 556 712 1139 1712 2192 2387 3045 3471 3480 3768 3830 3865 3917 3995 4132 4224 6720 6723 6726 6732 6736 6742 6746 6752 6764 6768 6773 6777 6779 6784 6794 6799 
+	}
+	history={
+		owner = GNS
+		add_core_of = GNS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

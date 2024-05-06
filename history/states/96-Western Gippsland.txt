@@ -1,0 +1,17 @@
+
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1044 1565 3506 3823 3976 4124 4179 4252 7295 7324 7339 7349 
+	}
+	history={
+		owner = GVI
+		add_core_of = GVI
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

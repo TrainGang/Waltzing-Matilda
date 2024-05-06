@@ -1,0 +1,17 @@
+
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		218 1724 2004 2016 2484 2534 2538 2706 3059 3209 3294 3319 3386 3678 3724 3901 4191 4223 4407 4410 4423 4433 4441 4447 4470 4487 4493 4496 4512 4519 4538 4558 4582 4591 4605 7566 
+	}
+    
+    history={
+		owner = JAP
+		add_core_of = JAP
+	}
+    
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

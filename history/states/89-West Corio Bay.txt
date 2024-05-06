@@ -1,0 +1,17 @@
+
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		1002 1275 2645 2863 3027 3758 3802 7328 7333 7335 7342 7350 7359 7363 7364 7369 
+	}
+	history={
+		owner = GVI
+		add_core_of = GVI
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

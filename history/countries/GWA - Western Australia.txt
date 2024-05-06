@@ -1,0 +1,37 @@
+capital = 9
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+create_country_leader = {
+	
+	name = "Vacant Governorship"
+	picture = "gfx//leaders//GWA//vacant_governorship.tga"
+	expire = "1965.1.1"
+	ideology = governor_system
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+	ruling_party = imperialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	imperialism = 50
+	autocracy = 1
+	left_camp = 18
+	centre_camp = 8
+	populist_camp = 4
+	broad_liberal = 8
+	broad_conservatism = 11
+}

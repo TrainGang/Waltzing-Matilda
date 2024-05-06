@@ -1,0 +1,17 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		594 864 896 996 1123 1525 1932 2249 3599 3786 3817 3857 4161 7045 7120 7145 7159 7170 7179 
+	}
+	history={
+		owner = BUS
+		add_core_of = BUS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

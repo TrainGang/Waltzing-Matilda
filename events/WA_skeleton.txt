@@ -1,0 +1,253 @@
+add_namespace = GWA_skeleton
+add_namespace = GWA_news
+
+country_event = {
+	id = GWA_skeleton.0
+	title = GWA_skeleton.0.t
+	desc = GWA_skeleton.0.d
+	# picture = ""
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = GWA_skeleton.0.a
+			news_event = {
+				id = GWA_news.4106
+				days = 0
+			}
+		create_country_leader = {
+			name = "James Mitchell"
+			picture = "gfx/leaders/GWA/good_james_mitchell.tga"
+			expire = "1965.1.1"
+			ideology = provisional_government
+		}
+
+
+		hidden_effect = {
+			country_event = {
+				id = GWA_skeleton.1
+				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = SOR_civil_war.1
+	title = SOR.civil_war.1.t
+	desc = SOR_civil_war.1.d
+	# picture = ""
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOR_civil_war.1.a
+		POR = {
+			transfer_state = 53
+		}
+		hidden_effect = {
+			country_event = {
+				id = SOR_civil_war.2
+				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = SOR_civil_war.2
+	title = SOR_civil_war.2.t
+	desc = SOR_civil_war.2.d
+	# picture = ""
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOR_civil_war.2.a
+		ai_chance = {
+			factor = 100
+		}
+		SOS = {
+			transfer_state = 54
+			transfer_state = 127
+			transfer_state = 183
+		}
+		hidden_effect = {
+			country_event = {
+				id = SOR_civil_war.3
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = SOR_civil_war.2.b
+		ai_chance = {
+			factor = 0
+		}
+		SOS = {
+			transfer_state = 54
+			transfer_state = 127
+			transfer_state = 183
+			change_tag_from = SOR
+		}
+		hidden_effect = {
+			SOS = {
+				every_state = {
+					limit = {
+						is_core_of = SOR
+					}
+					add_core_of = PREV
+				}
+			}
+			country_event = {
+				id = SOR_civil_war.3
+				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = SOR_civil_war.3
+	title = SOR_civil_war.3.t
+	desc = SOR_civil_war.3.d
+	# picture = ""
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOR_civil_war.3.a
+		ai_chance = {
+			factor = 100
+		}
+		SOU = {
+			transfer_state = 176
+			transfer_state = 179
+			transfer_state = 182
+			transfer_state = 451
+			transfer_state = 615
+			transfer_state = 706
+		}
+		hidden_effect = {
+			SOU = {
+				every_state = {
+					limit = {
+						is_core_of = SOR
+					}
+					add_core_of = PREV
+				}
+			}
+			country_event = {
+				id = SOR_civil_war.4
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = SOR_civil_war.3.b
+		ai_chance = {
+			factor = 0
+		}
+		SOU = {
+			transfer_state = 176
+			transfer_state = 179
+			transfer_state = 182
+			transfer_state = 451
+			transfer_state = 615
+			transfer_state = 706
+			change_tag_from = SOR
+		}
+		hidden_effect = {
+			SOU = {
+				every_state = {
+					limit = {
+						is_core_of = SOR
+					}
+					add_core_of = PREV
+				}
+			}
+			country_event = {
+				id = SOR_civil_war.4
+				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = SOR_civil_war.4
+	title = SOR_civil_war.4.t
+	desc = SOR_civil_war.4.d
+	# picture = ""
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = SOR_civil_war.4.a
+		ai_chance = {
+			factor = 100
+		}
+		SOC = {
+			transfer_state = 180
+			transfer_state = 182
+			transfer_state = 184
+			transfer_state = 613
+		}
+		JEF = {
+			transfer_state = 174
+			transfer_state = 616
+			transfer_state = 617
+		}
+		hidden_effect = {
+			SOC = {
+				every_state = {
+					limit = {
+						is_core_of = SOR
+					}
+					add_core_of = PREV
+				}
+			}
+			JEF = {
+				add_state_core = 174
+				add_state_core = 179
+				add_state_core = 616
+				add_state_core = 617
+			}
+		}
+	}
+	option = {
+		name = SOR_civil_war.4.b
+		ai_chance = {
+			factor = 0
+		}
+		SOC = {
+			transfer_state = 180
+			transfer_state = 182
+			transfer_state = 184
+			transfer_state = 613
+			change_tag_from = SOR
+		}
+		JEF = {
+			transfer_state = 174
+			transfer_state = 616
+			transfer_state = 617
+		}
+		hidden_effect = {
+			SOC = {
+				every_state = {
+					limit = {
+						is_core_of = SOR
+					}
+					add_core_of = PREV
+				}
+			}
+			JEF = {
+				add_state_core = 174
+				add_state_core = 179
+				add_state_core = 616
+				add_state_core = 617
+			}
+		}
+	}
+}

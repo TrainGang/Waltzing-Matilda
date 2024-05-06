@@ -1,0 +1,18 @@
+
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		445 531 1253 1254 1796 1963 2121 2200 2421 2748 2923 3216 3250 3329 3614 3650 3734 4024 4092 4171 6701 6705 6719 6731 6737 
+	}
+	history={
+		owner = BUS
+		add_core_of = BUS
+
+	}
+
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

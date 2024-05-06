@@ -1,0 +1,17 @@
+
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		1539 3661 4036 7074 7080 7095 
+	}
+	history={
+		owner = GNS
+		add_core_of = GNS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		2144 2551 3011 4051 7379 7382 7384 7847 
+	}
+	history={
+		owner = GVI
+		add_core_of = GVI
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

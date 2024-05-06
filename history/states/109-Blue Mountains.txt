@@ -1,0 +1,17 @@
+
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		32 217 390 1158 1387 1445 3029 3518 3532 3821 4027 6939 6965 6996 7023 7031 7037 
+	}
+	history={
+		owner = GNS
+		add_core_of = GNS
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
